@@ -1,0 +1,35 @@
+/* Remove espaçamentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove estilos de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove sublinhado e herda cor em links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove borda em elementos focados (navegadores mais antigos) */
+:focus {
+  outline: none;
+}
+
+/* Imagens nunca estouram o container */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tabelas sem espaçamento duplicado */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
