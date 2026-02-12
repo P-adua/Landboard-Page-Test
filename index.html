@@ -67,18 +67,18 @@
           <img src="./images/image-computer.png" alt="Computer">
         </div>
         <div class="features__list">
-          <div class="feature">
-            <h3 class="feature__title">Quick Search</h3>
-            <p class="feature__description">Easily search your snippets by content, category, web address, application,
+          <div class="feature_item">
+            <h3 class="feature_item__title">Quick Search</h3>
+            <p class="feature_item__description">Easily search your snippets by content, category, web address, application,
               and more.</p>
           </div>
-          <div class="feature">
-            <h3 class="feature__title">iCloud Sync</h3>
-            <p class="feature__description">Instantly saves and syncs snippets across all your devices.</p>
+          <div class="feature_item">
+            <h3 class="feature_item__title">iCloud Sync</h3>
+            <p class="feature_item__description">Instantly saves and syncs snippets across all your devices.</p>
           </div>
-          <div class="feature">
-            <h3 class="feature__title">Complete History</h3>
-            <p class="feature__description">Retrieve any snippets from the first moment you started using the app.</p>
+          <div class="feature_item">
+            <h3 class="feature_item__title">Complete History</h3>
+            <p class="feature_item__description">Retrieve any snippets from the first moment you started using the app.</p>
           </div>
         </div>
       </div>
@@ -101,34 +101,35 @@
     </div>
   </section>
 
-  <!-- Workflow Section -->
-  <section class="workflow">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="workflow__title">Supercharge your workflow</h2>    
-        <p class="workflow-feature__main-description">We've got the tools to boost your productivity.</p>
+<!-- Workflow Section -->
+<section class="workflow">
+  <div class="container">
+    <div class="workflow__header">  <!-- mudar de section-header -->
+      <h2 class="workflow__title">Supercharge your workflow</h2>    
+      <p class="workflow__description">We've got the tools to boost your productivity.</p>  <!-- simplificar -->
+    </div>
+    
+    <div class="workflow__grid">  <!-- mudar de workflow__features -->
+      <div class="workflow__item">  <!-- padrão: bloco__elemento -->
+        <img src="./images/icon-blacklist.svg" alt="Blacklist" class="workflow__item-icon">
+        <h3 class="workflow__item-title">Create blacklists</h3>
+        <p class="workflow__item-description">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
       </div>
-      <div class="workflow__features">  
-        <div class="workflow-feature">
-          <img src="./images/icon-blacklist.svg" alt="Blacklist" class="workflow-feature__icon">
-          <h3 class="workflow-feature__title">Create blacklists</h3>
-          <p class="workflow-feature__description">Ensure sensitive information never makes its way to your clipboard by
-            excluding certain sources.</p>
-        </div>
-        <div class="workflow-feature">
-          <img src="./images/icon-text.svg" alt="Text" class="workflow-feature__icon">
-          <h3 class="workflow-feature__title">Plain text snippets</h3>
-          <p class="workflow-feature__description">Remove unwanted formatting from copied text for a consistent look.
-          </p>
-        </div>
-        <div class="workflow-feature">
-          <img src="./images/icon-preview.svg" alt="Preview" class="workflow-feature__icon">
-          <h3 class="workflow-feature__title">Sneak preview</h3>
-          <p class="workflow-feature__description">Quick preview of all snippets on your Clipboard for easy access.</p>
-        </div>
+      
+      <div class="workflow__item">
+        <img src="./images/icon-text.svg" alt="Text" class="workflow__item-icon">
+        <h3 class="workflow__item-title">Plain text snippets</h3>
+        <p class="workflow__item-description">Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      
+      <div class="workflow__item">
+        <img src="./images/icon-preview.svg" alt="Preview" class="workflow__item-icon">
+        <h3 class="workflow__item-title">Sneak preview</h3>
+        <p class="workflow__item-description">Quick preview of all snippets on your Clipboard for easy access.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Clients Section -->
   <section class="clients">
